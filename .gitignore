@@ -1,0 +1,6 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Packaging artifacts
+*.egg-info/
