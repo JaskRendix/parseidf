@@ -1,0 +1,29 @@
+[project]
+name = "parseidf"
+version = "1.0.0"
+description = "A module for parsing EnergyPlus IDF files"
+readme = "README.rst"
+license = { file = "LICENSE.txt" }
+authors = [
+    { name = "Daren Thomas", email = "dthomas.ch@gmail.com" }
+]
+keywords = ["simulation", "parsing", "energyplus"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "ply"
+]
+
+[project.urls]
+Homepage = "https://github.com/daren-thomas/parseidf"
+Repository = "https://github.com/daren-thomas/parseidf"
+
+[tool.setuptools]
+py-modules = ["parseidf"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
