@@ -1,6 +1,10 @@
-# Python virtual environment
+# Python virtual environments
 .venv/
 venv/
 
 # Packaging artifacts
 *.egg-info/
+
+# Bytecode cache
+__pycache__/
+*.py[cod]

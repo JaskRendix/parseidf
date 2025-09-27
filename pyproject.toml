@@ -2,7 +2,7 @@
 name = "parseidf"
 version = "1.0.0"
 description = "A module for parsing EnergyPlus IDF files"
-readme = "README.rst"
+readme = "README.md"
 license = { file = "LICENSE.txt" }
 authors = [
     { name = "Daren Thomas", email = "dthomas.ch@gmail.com" }
