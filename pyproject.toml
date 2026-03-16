@@ -2,14 +2,16 @@
 name = "parseidf"
 version = "1.0.0"
 description = "A module for parsing EnergyPlus IDF files"
-readme = "README.rst"
+readme = "README.md"
 license = { file = "LICENSE.txt" }
 authors = [
     { name = "Daren Thomas", email = "dthomas.ch@gmail.com" }
 ]
 keywords = ["simulation", "parsing", "energyplus"]
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent"
 ]
